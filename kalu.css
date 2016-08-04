@@ -1,0 +1,87 @@
+    /*background color*/
+.kalu-back-grey{
+    background: rgba(226, 226, 226, 0.25);
+}
+
+.kalu-caption-box{
+    /*acting as the container for the caption*/
+    border: 5px solid #ffffff;
+    border-radius: 0px;
+    height: 240px;
+    width: 320px;
+    background: #ffffff;
+    overflow: hidden;
+    position: relative;
+
+    -webkit-box-shadow: 0 0 3px #000000;
+    -moz-box-shadow: 0 0 3px #000000;
+    -o-box-shadow: 0 0 3px #000000;
+    box-shadow: 0 0 3px #000000;
+}
+
+.kalu-caption-box:hover .kalu-caption-text{
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 10px #000000;
+    -moz-box-shadow: 0 0 10px #000000;
+    -o-box-shadow: 0 0 10px #000000;
+    box-shadow: 0 0 10px #000000;
+    top: 0;
+}
+
+.kalu-caption-box img{
+    height: 230px;
+    width: auto;
+    /*scaling*/
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -o-transform: scale(.9);
+    transform: scale(.9);
+    /*animation*/
+    -webkit-transition-duration: .5s;
+    -moz-transition-duration: .5s;
+    -o-transition-duration: .5s;
+    transition-duration: .5s;
+    /*opacity*/
+    opacity: .7;
+}
+
+.kalu-caption-box img:hover{
+    /*scaling*/
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+    /*opacity*/
+    opacity: 1;
+}
+
+.kalu-caption-text{
+    background: rgba(0,0,0,0.5);
+    top: 100px;
+    color: #ffffff;
+    height: auto;
+    width: inherit;
+    position: absolute;
+}
+
+.kalu-caption-text a{
+    color: #ffffff;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+
+    -webkit-transition: all .4s ease-out;
+    -moz-transition: all .4s ease-out;
+    -o-transition: all .4s ease-out;
+    transition: all .4s ease-out;
+}
+
+.kalu-caption-text a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
